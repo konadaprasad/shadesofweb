@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.container2 {
+  background-color: transparent;
+}
+
+.heading1 {
+  font-family: "Martel Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #887c68;
+}
